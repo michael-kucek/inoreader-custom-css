@@ -1,33 +1,33 @@
 /* magazine view */
 .reader_pane_view_style_4 .article-container {
-    max-width: 1000px;
+    max-width: 1000px !important;
 }
 
 .reader_pane_view_style_4 .article_magazine {
-    max-width: 100%;
-    margin: auto;
-    height: auto;
+    max-width: 100% !important;
+    margin: auto !important;
+    height: auto !important;
 }
 
 .reader_pane_view_style_4 .article_magazine_title_wrapper {
-    max-width: none;
+    max-width: none !important;
 }
 
 .reader_pane_view_style_4 .article_magazine_content {
-    max-height: none;
-    height: 7rem;
+    max-height: none !important;
+    height: calc(20px * 4) !important;
 }
 
 /* article modal */
 #article_dialog .article_footer_placeholder_top {
-    width: 1000px;
+    width: 900px !important;
 }
 
-#article_dialog img {
-    width: 800px !important;
-    max-width: none;
+#article_dialog p img {
+    width: 700px !important;
+    max-width: none !important;
 }
 
 #article_dialog_wrapper {
-    width: 1100px !important;
+    width: 1000px !important;
 }
