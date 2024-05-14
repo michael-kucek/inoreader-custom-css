@@ -1,0 +1,33 @@
+/* magazine view */
+.reader_pane_view_style_4 .article-container {
+    max-width: 1000px;
+}
+
+.reader_pane_view_style_4 .article_magazine {
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+.reader_pane_view_style_4 .article_magazine_title_wrapper {
+    max-width: none;
+}
+
+.reader_pane_view_style_4 .article_magazine_content {
+    max-height: none;
+    height: 7rem;
+}
+
+/* article modal */
+#article_dialog .article_footer_placeholder_top {
+    width: 1000px;
+}
+
+#article_dialog img {
+    width: 800px !important;
+    max-width: none;
+}
+
+#article_dialog_wrapper {
+    width: 1100px !important;
+}
