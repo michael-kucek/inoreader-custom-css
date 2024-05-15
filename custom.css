@@ -23,9 +23,12 @@
     width: 900px !important;
 }
 
-#article_dialog p img {
-    width: 700px !important;
-    max-width: none !important;
+#article_dialog .article_block_image {
+    max-width: 840px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
 }
 
 #article_dialog_wrapper {
