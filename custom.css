@@ -23,8 +23,12 @@
     width: 900px !important;
 }
 
-#article_dialog .article_block_image {
+#article_dialog .article_block_image,
+#article_dialog iframe {
+    min-width: 400px !important;
     max-width: 840px !important;
+    min-height: 300px !important;
+    max-height: 500px !important;
     display: block;
     margin-left: auto;
     margin-right: auto;
