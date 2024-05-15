@@ -38,3 +38,8 @@
 #article_dialog_wrapper {
     width: 1000px !important;
 }
+
+/* hide beta badge */
+.beta_badge {
+    display: none !important;
+}
