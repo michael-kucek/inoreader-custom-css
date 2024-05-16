@@ -46,7 +46,7 @@
 
 /* List page */
 .reader_pane_view_style_0 h5.articles_feed_group_heading {
-    font-size: 20px;
+    font-size: 20px !important;
     margin-top: 15px !important;
 }
 
@@ -56,5 +56,5 @@
 }
 
 .reader_pane_view_style_0 .article_header .article_header_title {
-    font-size: 14px;
+    font-size: 15px;
 }
