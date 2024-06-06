@@ -55,12 +55,12 @@ div.article_full_contents div.article_content span:first-of-type {
 }
 
 /* List page */
-.reader_pane_view_style_0 h5.articles_feed_group_heading {
+.reader_pane_view_style_0 h5.articles_group_feed {
     font-size: 20px !important;
     margin-top: 15px !important;
 }
 
-.reader_pane_view_style_0 h5.articles_feed_group_heading img.feed_favicon {
+.reader_pane_view_style_0 h5.articles_group_feed img.feed_favicon {
     height: 25px;
     width: 25px;
 }
