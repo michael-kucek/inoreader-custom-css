@@ -1,6 +1,10 @@
 /* magazine view */
 .article-container {
-    max-width: 900px !important;
+    max-width: 950px !important;
+}
+
+div#no_more_div {
+    height: calc(100vh + 10px);
 }
 
 .reader_pane_view_style_4 .article_magazine {
