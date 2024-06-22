@@ -68,3 +68,7 @@ div.article_full_contents div.article_content span:first-of-type {
 .reader_pane_view_style_0 .article_header .article_header_title {
     font-size: 15px;
 }
+
+[data-tags*="in progress"] {
+    box-shadow: inset 0px 0px 20px 1px #4177c2b5 !important;
+}
