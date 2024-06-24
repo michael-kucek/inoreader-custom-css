@@ -51,7 +51,7 @@ div.article_full_contents div.article_content span:first-of-type {
 
 /* hide beta badge and regex tooltip */
 .beta_badge,
-.rule_regex_tip {
+span.rule_regex_tip {
     display: none !important;
 }
 
