@@ -70,5 +70,9 @@ div.article_full_contents div.article_content span:first-of-type {
 }
 
 [data-tags*="in progress"] {
-    box-shadow: inset 0px 0px 20px 1px #4177c2b5 !important;
+    background: linear-gradient(-45deg, rgba(65, 119, 194, 0.3), transparent) !important;
+}
+
+#preference_custom_css {
+    height: 250px;
 }
