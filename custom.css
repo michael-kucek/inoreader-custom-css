@@ -30,7 +30,7 @@ div#no_more_div {
 #article_dialog .article_block_image,
 #article_dialog iframe {
     min-width: 400px !important;
-    max-width: 840px !important;
+    max-width: 650px !important;
     min-height: 300px !important;
     max-height: 500px !important;
     display: block;
@@ -49,8 +49,9 @@ div.article_full_contents div.article_content span:first-of-type {
     width: auto !important;
 }
 
-/* hide beta badge */
-.beta_badge {
+/* hide beta badge and regex tooltip */
+.beta_badge,
+.rule_regex_tip {
     display: none !important;
 }
 
@@ -70,7 +71,7 @@ div.article_full_contents div.article_content span:first-of-type {
 }
 
 [data-tags*="in progress"] {
-    background: linear-gradient(-45deg, rgba(65, 119, 194, 0.3), transparent) !important;
+    background: linear-gradient(45deg, rgba(65, 119, 194, 0.2), rgba(11, 11, 12, .8)) !important;
 }
 
 #preference_custom_css {
