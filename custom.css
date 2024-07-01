@@ -77,3 +77,15 @@ span.rule_regex_tip {
 #preference_custom_css {
     height: 250px;
 }
+
+/* Youtube timestamp fixed width */
+.icon-youtube-16x16:before {
+    display: none !important;
+}
+
+.article_video_div,
+.article_video_div span {
+    font-family: monospace;
+    background: none !important;
+    width: 55px;
+}
