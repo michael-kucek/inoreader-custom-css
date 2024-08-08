@@ -74,10 +74,6 @@ span.rule_regex_tip {
     font-size: 15px;
 }
 
-[data-tags*="in progress"], /* highlight in progress */
-.group_article_list_0.reader_pane_view_style_4 [data-mtags]:not([data-mtags^="null"]) { /* highlight all autotags in feed */
-    background: linear-gradient(45deg, rgba(65, 119, 194, 0.2), rgba(11, 11, 12, .8)) !important;
-}
 
 
 #preference_custom_css {
@@ -97,7 +93,9 @@ span.rule_regex_tip {
 }
 
 /* 
-[data-tags*="in progress"] {
+[data-tags*="in progress"], 
+.group_article_list_0.reader_pane_view_style_4 [data-mtags]:not([data-mtags^="null"]) { 
     background: linear-gradient(45deg, rgba(65, 119, 194, 0.2), rgba(11, 11, 12, .8)) !important;
 }
+
  */
