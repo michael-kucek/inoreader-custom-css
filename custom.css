@@ -22,6 +22,10 @@ div#no_more_div {
     height: calc(20px * 4) !important;
 }
 
+div.article-magazine:not(.article-unreaded) {
+    opacity: 40% !important;
+}
+
 /* article modal */
 #article_dialog .article_footer_placeholder_top {
     width: 900px !important;
@@ -91,3 +95,9 @@ span.rule_regex_tip {
     background: none !important;
     width: 55px;
 }
+
+/* 
+[data-tags*="in progress"] {
+    background: linear-gradient(45deg, rgba(65, 119, 194, 0.2), rgba(11, 11, 12, .8)) !important;
+}
+ */
