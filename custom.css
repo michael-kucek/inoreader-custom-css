@@ -19,8 +19,21 @@ div#no_more_div {
 
 .reader_pane_view_style_4 .article_magazine_content {
     max-height: none !important;
-    height: calc(20px * 4) !important;
+    height: calc(20px * 5) !important;
+    display: block !important;
+    overflow: hidden; /* Hide content that exceeds the height */
+
+    /* Mask for the fade effect */
+    -webkit-mask-image: linear-gradient(to bottom, 
+        var(--bs-body-color) calc(100% - 40px), 
+        transparent 100%
+    );
+    mask-image: linear-gradient(to bottom, 
+        var(--bs-body-color) calc(100% - 40px), 
+        transparent 100%
+    );
 }
+
 
 div.article-magazine:not(.article-unreaded) {
     opacity: 40% !important;
