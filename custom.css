@@ -25,6 +25,11 @@ div#no_more_div {
 .reader_pane_view_style_4 .article_magazine_title_wrapper {
     max-width: none !important;
 }
+.reader_pane_view_style_4 .article_magazine_title_wrapper .article_magazine_title_link {
+    font-size: 20px !important;
+    color: #e4e4e4 !important;
+    max-width: 100% !important;
+}
 
 .reader_pane_view_style_4 .article_magazine_content {
     max-height: none !important;
