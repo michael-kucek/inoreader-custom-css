@@ -58,10 +58,8 @@ div.article-magazine:not(.article-unreaded) {
 
 #article_dialog .article_block_image,
 #article_dialog iframe {
-    min-width: 400px !important;
-    max-width: 650px !important;
-    min-height: 300px !important;
-    max-height: 500px !important;
+    width: 860px !important;
+    height: 500px !important;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -79,7 +77,9 @@ div.article-magazine:not(.article-unreaded) {
  {
     max-width: 820px !important;
 }
-.progress, .article_footer .article-progress-bar {
+#article_dialog_wrapper .progress, 
+#article_dialog_wrapper .article_footer 
+#article_dialog_wrapper .article-progress-bar {
     max-width: 820px !important;
     width: 820px !important;
 }
