@@ -1,3 +1,12 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body, p, div {
+    font-family: "Atkinson Hyperlegible", sans-serif !important;
+}
+.progress {
+    height: 6px !important;
+  }
 /* magazine view */
 .article-container {
     max-width: 950px !important;
@@ -21,19 +30,17 @@ div#no_more_div {
     max-height: none !important;
     height: calc(20px * 5) !important;
     display: block !important;
-    overflow: hidden; /* Hide content that exceeds the height */
+    overflow: hidden;
+    /* Hide content that exceeds the height */
 
     /* Mask for the fade effect */
-    -webkit-mask-image: linear-gradient(to bottom, 
-        var(--bs-body-color) calc(100% - 40px), 
-        transparent 100%
-    );
-    mask-image: linear-gradient(to bottom, 
-        var(--bs-body-color) calc(100% - 40px), 
-        transparent 100%
-    );
+    -webkit-mask-image: linear-gradient(to bottom,
+            var(--bs-body-color) calc(100% - 40px),
+            transparent 100%);
+    mask-image: linear-gradient(to bottom,
+            var(--bs-body-color) calc(100% - 40px),
+            transparent 100%);
 }
-
 
 div.article-magazine:not(.article-unreaded) {
     opacity: 40% !important;
@@ -57,9 +64,20 @@ div.article-magazine:not(.article-unreaded) {
 }
 
 #article_dialog_wrapper {
-    width: 1000px !important;
+    width: 75vw !important;
 }
-
+#article_dialog_wrapper .article_title {
+    font-size: 2em;
+}
+#article_dialog_wrapper .article_full_contents,
+#article_dialog .article_footer_placeholder_top
+ {
+    max-width: 820px !important;
+}
+.progress, .article_footer .article-progress-bar {
+    max-width: 820px !important;
+    width: 820px !important;
+}
 /* fix for email spans showing up weird */
 /* for some reason patreon forwards have this span width set to 0 */
 div.article_full_contents div.article_content span:first-of-type {
