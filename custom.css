@@ -53,7 +53,7 @@ div.article-magazine:not(.article-unreaded) {
 
 /* article modal */
 #article_dialog .article_footer_placeholder_top {
-    width: 900px !important;
+    width: 860px !important;
 }
 
 #article_dialog .article_block_image,
