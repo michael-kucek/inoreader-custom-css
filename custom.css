@@ -1,8 +1,8 @@
 /* Global */
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-body, p, div {
-    font-family: "Atkinson Hyperlegible", sans-serif !important;
+body, p, div, .article_title, .article_content {
+    font-family: "Atkinson Hyperlegible" !important;
 }
 .progress {
     height: 6px !important;
