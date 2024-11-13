@@ -9,7 +9,7 @@ body, p, div, .article_title, .article_content {
   }
 /* magazine view */
 .article-container {
-    max-width: 950px !important;
+    max-width: 850px !important;
 }
 
 div#no_more_div {
@@ -51,49 +51,12 @@ div.article-magazine:not(.article-unreaded) {
     opacity: 40% !important;
 }
 
-/* article modal */
-#article_dialog .article_footer_placeholder_top {
-    width: 860px !important;
-}
-
-#article_dialog .article_block_image,
-#article_dialog iframe {
-    width: 860px !important;
-    height: 500px !important;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
-}
-
-#article_dialog_wrapper {
-    width: 75vw !important;
-}
-#article_dialog_wrapper .article_title {
-    font-size: 2em;
-}
-#article_dialog_wrapper .article_full_contents,
-#article_dialog .article_footer_placeholder_top
- {
-    max-width: 820px !important;
-}
-#article_dialog_wrapper .progress, 
-#article_dialog_wrapper .article_footer 
-#article_dialog_wrapper .article-progress-bar {
-    max-width: 820px !important;
-    width: 820px !important;
-}
 /* fix for email spans showing up weird */
 /* for some reason patreon forwards have this span width set to 0 */
 div.article_full_contents div.article_content span:first-of-type {
     width: auto !important;
 }
 
-/* hide beta badge and regex tooltip */
-.beta_badge,
-span.rule_regex_tip {
-    display: none !important;
-}
 
 /* List page */
 .reader_pane_view_style_0 h5.articles_group_feed {
@@ -127,11 +90,3 @@ span.rule_regex_tip {
     background: none !important;
     width: 55px;
 }
-
-/* 
-[data-tags*="in progress"], 
-.group_article_list_0.reader_pane_view_style_4 [data-mtags]:not([data-mtags^="null"]) { 
-    background: linear-gradient(45deg, rgba(65, 119, 194, 0.2), rgba(11, 11, 12, .8)) !important;
-}
-
- */
