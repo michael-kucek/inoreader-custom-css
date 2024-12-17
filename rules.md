@@ -9,7 +9,7 @@ New article in folder YouTube
 ### If
 ```regex
 Author matches regex
-/Nextlander|razbuten|RagnarRox|Gerstmann|Noclip|GameLinked|Day9|Minnmax/i
+/Nextlander|razbuten|RagnarRox|Gerstmann|Noclip|GameLinked|Day9|Minnmax|Games Done Quick/i
 and
 Title doesn't match regex
 /#shorts|Gerstmann Show|Warcraft/i
@@ -47,7 +47,7 @@ New article in folder YouTube
 ### If
 ```regex
 Author matches regex
-/Needledrop|BANGERTV|Forgemaster|Nocturnal|METALBIRB/i
+/Needledrop|BANGERTV|Forgemaster|Nocturnal|METALBIRB|Musora/i
 and
 Title doesn't match regex
 /#shorts/i
